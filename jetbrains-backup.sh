@@ -2,7 +2,7 @@
 set -u
 FILE=~/Desktop/JetBrains-$(date "+%Y%m%d-%H%M%S").tar.xz
 
-if [ "`uname -s`" != "Darwin" ] ; then
+if [ "$(uname -s)" != "Darwin" ] ; then
     echo "Sorry, $(uname -s) is not supported yet."
     exit 1
 fi
@@ -50,5 +50,5 @@ tar pf "$FILE" --append ~/Library/{Preferences,Caches,Application\ Support,Logs}
 tar pf "$FILE" --append ~/Library/{Preferences,Caches,Application\ Support,Logs}/WebStorm{?,??,20??.*,-EAP} &>/dev/null
 
 echo 'Check backup all data before deleting the product'
-echo "The configuration backup is successfully created: $FILE (size: $(du -sh $FILE|cut -f1))"
+echo "The configuration backup is successfully created: $FILE (size: $(du -sh "$FILE" | cut -f1))"
 # open -R $FILE
