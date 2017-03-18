@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -x
 
-if [ "`uname -s`" != "Darwin" ] ; then
+if [ "$(uname -s)" != "Darwin" ] ; then
     echo "Sorry, $(uname -s) is not supported yet."
     exit 1
 fi
