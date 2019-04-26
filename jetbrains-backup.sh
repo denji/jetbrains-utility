@@ -20,7 +20,7 @@ tar pf "$FILE" --append ~/Library/{Preferences,Caches,Application\ Support,Logs}
 tar pf "$FILE" --append ~/Library/Preferences,Caches,Application\ Support,Logs/appCode{??,???,20??.*,-EAP} &>/dev/null
 
 # CLion
-tar pf "$FILE" --append ~/Library/{Preferences,Caches,Application\ Support,Logs}/clion{??,???,20??.*,-EAP} &>/dev/null
+tar pf "$FILE" --append ~/Library/{Preferences,Caches,Application\ Support,Logs}/{c,C}{l,L}ion{??,???,20??.*,-EAP} &>/dev/null
 
 # Gogland
 tar pf "$FILE" --append ~/Library/{Preferences,Caches,Application\ Support,Logs}/Gogland{?.?} &>/dev/null
