@@ -30,11 +30,11 @@ rm -rfv ~/Library/Caches/{c,C}{l,L}ion{??,???,20??.*,-EAP}
 rm -rfv ~/Library/Application\ Support/{c,C}{l,L}ion{??,???,20??.*,-EAP}
 rm -rfv ~/Library/Logs/{c,C}{l,L}ion{??,???,20??.*,-EAP}
 
-# Gogland
-rm -rfv ~/Library/Preferences/Gogland{?.?}
-rm -rfv ~/Library/Caches/Gogland{?.?}
-rm -rfv ~/Library/Application\ Support/Gogland{?.?}
-rm -rfv ~/Library/Logs/Gogland{?.?}
+# GoLand
+rm -rfv ~/Library/Preferences/GoLand{?.?}
+rm -rfv ~/Library/Caches/GoLand{?.?}
+rm -rfv ~/Library/Application\ Support/GoLand{?.?}
+rm -rfv ~/Library/Logs/GoLand{?.?}
 
 # IntelliJ IDEA
 rm -rfv ~/Library/Preferences/IntelliJIdea{??,???,20??.*,-EAP}
