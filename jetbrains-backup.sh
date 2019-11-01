@@ -22,8 +22,8 @@ tar pf "$FILE" --append ~/Library/Preferences,Caches,Application\ Support,Logs/a
 # CLion
 tar pf "$FILE" --append ~/Library/{Preferences,Caches,Application\ Support,Logs}/{c,C}{l,L}ion{??,???,20??.*,-EAP} &>/dev/null
 
-# Gogland
-tar pf "$FILE" --append ~/Library/{Preferences,Caches,Application\ Support,Logs}/Gogland{?.?} &>/dev/null
+# GoLand
+tar pf "$FILE" --append ~/Library/{Preferences,Caches,Application\ Support,Logs}/GoLand{?.?} &>/dev/null
 
 # IntelliJ IDEA
 tar pf "$FILE" --append ~/Library/{Preferences,Caches,Application\ Support,Logs}/IntelliJIdea{??,???,20??.*,-EAP} &>/dev/null
